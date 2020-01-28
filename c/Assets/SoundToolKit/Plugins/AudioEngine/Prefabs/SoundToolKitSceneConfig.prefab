@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7893884907680896127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8248064921148491799}
+  - component: {fileID: 8493215549448881315}
+  m_Layer: 0
+  m_Name: SoundToolKitSceneConfig
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8248064921148491799
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7893884907680896127}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8493215549448881315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7893884907680896127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 732c71b9d1375a344a6b4d3c73bfc42f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_spatialVolume: 1
+  m_ambientVolume: 1
+  m_reverbVolume: 1
+  m_attenuationEnabled: 1
+  m_reflectionEnabled: 1
+  m_scatteringEnabled: 0
+  m_transmissionEnabled: 1
+  m_diffractionEnabled: 1
+  m_reverbEnabled: 1
+  m_speedOfSound: 343
+  m_dampingCoefficients:
+    m_band125Hz: 0.000049965176
+    m_band250Hz: 0.00011602459
+    m_band500Hz: 0.00037935798
+    m_band1000Hz: 0.0014259748
+    m_band2000Hz: 0.0055097346
+    m_band4000Hz: 0.020364536
+    m_band8000Hz: 0.06330366
+    m_band16000Hz: 0.13786007

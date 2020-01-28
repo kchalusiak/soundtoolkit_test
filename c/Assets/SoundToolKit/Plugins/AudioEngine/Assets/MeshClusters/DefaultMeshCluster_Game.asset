@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dab4db3cdf09f1f4f9ed37225335b552, type: 3}
+  m_Name: DefaultMeshCluster_Game
+  m_EditorClassIdentifier: 
+  m_meshes:
+  - Floors__Floor (4)
+  - Walls_Wall (13)
+  - cabinet_3 (1)_base
+  - Walls_Wall (12)
+  - Acoustically_Important_PTK_Door_Medium
+  - Sink.1_AcousticProxy
+  - Walls_Wall (6)
+  - Walls_Wall (8)
+  - Walls_Wall (15)
+  - Acoustically_Important_PTK_Door_Medium (1)
+  - sofa_4_AcousticProxy
+  - sofa_1_base
+  - shower_glass
+  - Floors__Floor (2)
+  - Acoustically_Important_Sink.2 (1)
+  - sofa_1_seat 1
+  - Walls_Wall (18)
+  - Acoustically_Important_Sink.2
+  - kitchen_table_2_cover
+  - Walls_Wall (17)
+  - Walls_Wall (3)
+  - Floors__Floor (1)
+  - Walls_Wall (16)
+  - Floors__Floor
+  - Walls_Wall (11)
+  - Walls_Wall (9)
+  - Floors__Floor (5)
+  - Walls_Wall
+  - Walls_Wall'
+  - cabinet_3_base
+  - Walls_Wall (4)
+  - Acoustically_Important_Refrigerator
+  - PTK_Door_Medium_Door
+  - sofa_1_seat
+  - modular_kitchen_table_3_base
+  - Walls_Wall (2)
+  - mirror_2_frame_2
+  - mirror_2 (1)_mirror
+  - bed_1_mattress
+  - mirror_2_mirror
+  - shower_shell
+  - Walls_Wall (14)
+  - mirror_2 (1)_frame_2
+  - bed_1_base
+  - Walls_Wall (1)
+  - Walls_Wall (10)
+  - Acoustically_Important_sofa_4
+  - Walls_Wall (5)
+  - Floors__Floor (3)
+  - cabinet_2_base
+  - shower_base
+  - Acoustically_Important_Drawer
+  - kitchen_table_2_base
+  - washbasin_AcousticProxy
+  - Walls_Wall (7)
+  m_serializedGeometry: {fileID: 0}

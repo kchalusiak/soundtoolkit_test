@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b704d29b99fde674290238904af4dab9, type: 3}
+  m_Name: painted_unglazed_brick 1
+  m_EditorClassIdentifier: 
+  m_absorptionEnabled: 1
+  m_scatteringEnabled: 1
+  m_transmissionEnabled: 1
+  m_visualMaterial: {fileID: 2100000, guid: 6e1d36c4bbd37d54f9ea183e4f5fd656, type: 2}
+  m_absorptionCoefficients:
+    m_band125Hz: 0
+    m_band250Hz: 0
+    m_band500Hz: 0
+    m_band1000Hz: 0
+    m_band2000Hz: 0
+    m_band4000Hz: 0
+    m_band8000Hz: 0
+    m_band16000Hz: 0
+  m_scatteringCoefficients:
+    m_band125Hz: 0
+    m_band250Hz: 0
+    m_band500Hz: 0
+    m_band1000Hz: 0
+    m_band2000Hz: 0
+    m_band4000Hz: 0
+    m_band8000Hz: 0
+    m_band16000Hz: 0
+  m_transmissionCoefficients:
+    m_band125Hz: 0
+    m_band250Hz: 0
+    m_band500Hz: 0
+    m_band1000Hz: 0
+    m_band2000Hz: 0
+    m_band4000Hz: 0
+    m_band8000Hz: 0
+    m_band16000Hz: 0
+  m_filePath: SoundToolKit\Materials\Walls\painted_unglazed_brick.json

@@ -1,0 +1,122 @@
+{
+    "absorption_model": {
+        "type": "M_ABSORPTION_COEFFICIENTS",
+        "model_data": {
+            "coefficients": {
+                "alpha_125": {
+                    "value": "0.441000015",
+                    "unit": "[1]"
+                },
+                "alpha_250": {
+                    "value": "0.268999994",
+                    "unit": "[1]"
+                },
+                "alpha_500": {
+                    "value": "0.207000002",
+                    "unit": "[1]"
+                },
+                "alpha_1000": {
+                    "value": "0.426999986",
+                    "unit": "[1]"
+                },
+                "alpha_2000": {
+                    "value": "0.43599999",
+                    "unit": "[1]"
+                },
+                "alpha_4000": {
+                    "value": "0.572000027",
+                    "unit": "[1]"
+                },
+                "alpha_8000": {
+                    "value": "0.428000003",
+                    "unit": "[1]"
+                },
+                "alpha_16000": {
+                    "value": "0.589999974",
+                    "unit": "[1]"
+                }
+            },
+            "effect_enabled": "true"
+        }
+    },
+    "scattering_model": {
+        "type": "M_SCATTERING_COEFFICIENTS",
+        "model_data": {
+            "coefficients": {
+                "s_125": {
+                    "value": "0.0399999991",
+                    "unit": "[1]"
+                },
+                "s_250": {
+                    "value": "0.0599999987",
+                    "unit": "[1]"
+                },
+                "s_500": {
+                    "value": "0.0649999976",
+                    "unit": "[1]"
+                },
+                "s_1000": {
+                    "value": "0.0500000007",
+                    "unit": "[1]"
+                },
+                "s_2000": {
+                    "value": "0.0500000007",
+                    "unit": "[1]"
+                },
+                "s_4000": {
+                    "value": "0.0350000001",
+                    "unit": "[1]"
+                },
+                "s_8000": {
+                    "value": "0.0350000001",
+                    "unit": "[1]"
+                },
+                "s_16000": {
+                    "value": "0.0350000001",
+                    "unit": "[1]"
+                }
+            },
+            "effect_enabled": "true"
+        }
+    },
+    "transmission_model": {
+        "type": "M_TRANSMISSION_COEFFICIENTS",
+        "model_data": {
+            "coefficients": {
+                "sri_125": {
+                    "value": "0.0334965438",
+                    "unit": "[1]"
+                },
+                "sri_250": {
+                    "value": "0.0105925398",
+                    "unit": "[1]"
+                },
+                "sri_500": {
+                    "value": "0.00446683681",
+                    "unit": "[1]"
+                },
+                "sri_1000": {
+                    "value": "0.0018836495",
+                    "unit": "[1]"
+                },
+                "sri_2000": {
+                    "value": "0.0007943284",
+                    "unit": "[1]"
+                },
+                "sri_4000": {
+                    "value": "0.000334965502",
+                    "unit": "[1]"
+                },
+                "sri_8000": {
+                    "value": "0.000141253782",
+                    "unit": "[1]"
+                },
+                "sri_16000": {
+                    "value": "5.95662277e-05",
+                    "unit": "[1]"
+                }
+            },
+            "effect_enabled": "true"
+        }
+    }
+}

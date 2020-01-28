@@ -1,0 +1,1 @@
+This directory contains official resources used by the audio engine, stored in binary boost::Archive format.

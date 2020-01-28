@@ -1,0 +1,225 @@
+{
+    "material_name": "Floating parquet on concrete",
+    "absorption_model": {
+        "type": "M_ABSORPTION_COEFFICIENTS",
+        "material_name": "Floating parquet",
+        "model_data": {
+            "coefficients": {
+                "alpha_125": {
+                    "value": 0.1,
+                    "range": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "description": "reverberant absorption coefficient for 125Hz octave band",
+                    "unit": "[1]"
+                },
+                "alpha_250": {
+                    "value": 0.07,
+                    "range": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "description": "reverberant absorption coefficient for 250Hz octave band",
+                    "unit": "[1]"
+                },
+                "alpha_500": {
+                    "value": 0.05,
+                    "range": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "description": "reverberant absorption coefficient for 500Hz octave band",
+                    "unit": "[1]"
+                },
+                "alpha_1000": {
+                    "value": 0.06,
+                    "range": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "description": "reverberant absorption coefficient for 1000Hz octave band",
+                    "unit": "[1]"
+                },
+                "alpha_2000": {
+                    "value": 0.06,
+                    "range": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "description": "reverberant absorption coefficient for 2000Hz octave band",
+                    "unit": "[1]"
+                },
+                "alpha_4000": {
+                    "value": 0.06,
+                    "range": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "description": "reverberant absorption coefficient for 4000Hz octave band",
+                    "unit": "[1]"
+                },
+                "alpha_8000": {
+                    "value": 0.06,
+                    "range": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "description": "reverberant absorption coefficient for 8000Hz octave band",
+                    "unit": "[1]"
+                },
+                "alpha_16000": {
+                    "value": 0.06,
+                    "range": {
+                        "min": 0,
+                        "max": 1
+                    },
+                    "description": "reverberant absorption coefficient for 16000Hz octave band",
+                    "unit": "[1]"
+                }
+            },
+            "use_scattering_data_in_prediction": "true"
+        }
+    },
+    "scattering_model": {
+        "type": "M_SCATTERING_COEFFICIENTS",
+        "material_name": "Default Scattering",
+        "model_data": {
+            "coefficients": {
+                "s_125": {
+                    "value": 0.04,
+                    "range": {
+                        "min": 0.0,
+                        "max": 1.0
+                    },
+                    "description": "scattering coefficient for 125Hz octave band",
+                    "unit": "[1]"
+                },
+                "s_250": {
+                    "value": 0.06,
+                    "range": {
+                        "min": 0.0,
+                        "max": 1.0
+                    },
+                    "description": "scattering coefficient for 250Hz octave band",
+                    "unit": "[1]"
+                },
+                "s_500": {
+                    "value": 0.065,
+                    "range": {
+                        "min": 0.0,
+                        "max": 1.0
+                    },
+                    "description": "scattering coefficient for 500Hz octave band",
+                    "unit": "[1]"
+                },
+                "s_1000": {
+                    "value": 0.05,
+                    "range": {
+                        "min": 0.0,
+                        "max": 1.0
+                    },
+                    "description": "scattering coefficient for 1000Hz octave band",
+                    "unit": "[1]"
+                },
+                "s_2000": {
+                    "value": 0.05,
+                    "range": {
+                        "min": 0.0,
+                        "max": 1.0
+                    },
+                    "description": "scattering coefficient for 2000Hz octave band",
+                    "unit": "[1]"
+                },
+                "s_4000": {
+                    "value": 0.035,
+                    "range": {
+                        "min": 0.0,
+                        "max": 1.0
+                    },
+                    "description": "scattering coefficient for 4000Hz octave band",
+                    "unit": "[1]"
+                },
+                "s_8000": {
+                    "value": 0.035,
+                    "range": {
+                        "min": 0.0,
+                        "max": 1.0
+                    },
+                    "description": "scattering coefficient for 8000Hz octave band",
+                    "unit": "[1]"
+                },
+                "s_16000": {
+                    "value": 0.035,
+                    "range": {
+                        "min": 0.0,
+                        "max": 1.0
+                    },
+                    "description": "scattering coefficient for 16000Hz octave band",
+                    "unit": "[1]"
+                }
+            },
+            "use_absorption_data_in_prediction": "false"
+        }
+    },
+    "transmission_model": {
+        "type": "M_TRANSMISSION_PARAMETRIC_SINGLE_LEAF",
+        "material_name": "Concrete (dense)",
+        "model_data": {
+            "longitudinal_wave_velocity": {
+                "value": 3600,
+                "range": {
+                    "min": 3100,
+                    "max": 3700
+                },
+                "description": "compression wave velocity in material",
+                "unit": "[m/s]"
+            },
+            "density": {
+                "value": 2400,
+                "range": {
+                    "min": 8500,
+                    "max": 8710
+                },
+                "description": "density of material",
+                "unit": "[kg/m^3]"
+            },
+            "young_modulus": {
+                "value": 26000000000,
+                "range": {
+                    "min": 26000000000,
+                    "max": 26000000000
+                },
+                "description": "Young modulus of material",
+                "unit": "[Pa]"
+            },
+            "thickness": {
+                "value": 0.19,
+                "range": {
+                    "min": 0.01,
+                    "max": 20
+                },
+                "description": "thickness of partition made of material",
+                "unit": "[m]"
+            },
+            "poisson_coefficient": {
+                "value": 0.3,
+                "range": {
+                    "min": 0.3,
+                    "max": 0.3
+                },
+                "description": "ratio of transverse strain to axial strain",
+                "unit": "[1]"
+            },
+            "etha": {
+                "value": 0.01,
+                "range": {
+                    "min": 0.005,
+                    "max": 0.02
+                },
+                "description": "mechanical damping coefficient",
+                "unit": "[1]"
+            }
+        }
+    }
+}
